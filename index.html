@@ -143,6 +143,8 @@ Error message and password prompt
 
 <li>$:/config/EditorTypeMappings/text/vnd.tiddlywiki</li>
 
+<li>$:/config/RelinkOnRename</li>
+
 <li>$:/core</li>
 
 <li>$:/DefaultTiddlers</li>
@@ -211,11 +213,15 @@ Error message and password prompt
 
 <li>Future Matters</li>
 
-<li>goal</li>
+<li>Goal</li>
+
+<li>Identity</li>
 
 <li>Precise Beliefs</li>
 
 <li>Self-consistent Beliefs</li>
+
+<li>Solutions Are Problems</li>
 
 <li>Tentative Beliefs</li>
 
@@ -235,6 +241,9 @@ Error message and password prompt
 <div id="storeArea" style="display:none;">
 <div created="20200527074429500" modified="20200527074434000" title="$:/config/EditorTypeMappings/text/vnd.tiddlywiki">
 <pre>comptext</pre>
+</div>
+<div created="20200530180202400" modified="20200530180202400" title="$:/config/RelinkOnRename">
+<pre>yes</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22">
 <pre>{
@@ -9609,8 +9618,8 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200528192254926" modified="20200528195646581" title="$:/DefaultTiddlers">
-<pre>A Good Life</pre>
+<div created="20200528192254926" modified="20200530165600400" title="$:/DefaultTiddlers">
+<pre>[[A Good Life]]</pre>
 </div>
 <div created="20200528183449843" modified="20200528183451395" title="$:/GitHub/Filename">
 <pre>index.html</pre>
@@ -10783,16 +10792,16 @@ Error message and password prompt
 <div created="20200527074400500" modified="20200528195636373" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/LoadedModules</pre>
 </div>
-<div created="20200527074318200" modified="20200528195627029" title="$:/state/tab-1749438307">
+<div created="20200527074318200" modified="20200530181634600" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
-<div created="20200528183435598" modified="20200528183435598" title="$:/state/tab-2065006209">
-<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
+<div created="20200528183435598" modified="20200530181633000" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/General</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200528192318570" list="[[A Good Life]] [[Future Matters]]" modified="20200528200129632" title="$:/StoryList">
+<div created="20200530165552500" list="[[A Good Life]] Identity" modified="20200530181629000" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10840,15 +10849,15 @@ Error message and password prompt
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1920&quot;
+            &quot;text&quot;: &quot;1850&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;1080&quot;
+            &quot;text&quot;: &quot;942&quot;
         },
         &quot;$:/info/browser/language&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/language&quot;,
-            &quot;text&quot;: &quot;en-GB&quot;
+            &quot;text&quot;: &quot;en-US&quot;
         }
     }
 }</pre>
@@ -10856,8 +10865,8 @@ Error message and password prompt
 <div created="20200528192306002" modified="20200528194609257" title="$:/temp/search">
 <pre></pre>
 </div>
-<div created="20200528192321104" modified="20200528195708801" title="$:/temp/tobibeer/preview-1-tiddler">
-<pre>Tentative Beliefs</pre>
+<div created="20200528192321104" modified="20200530180800400" title="$:/temp/tobibeer/preview-1-tiddler">
+<pre>A Good Life</pre>
 </div>
 <div created="20200528192309488" modified="20200528192318021" title="$:/temp/tobibeer/preview-2-tiddler">
 <pre>Beliefs</pre>
@@ -10971,8 +10980,8 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200528194620751" modified="20200528195544236" tags="" title="A Good Life">
-<pre>Once you've gotten a good sense of your own [[Identity]], even if [[tentative|Tentative Beliefs]], the next step in a philosopher's journey is to immediately think about the [[goal]]. How do you go about defining what a good life is supposed to be?
+<div created="20200528194620751" modified="20200530180747400" tags="" title="A Good Life">
+<pre>Once you've gotten a good sense of your own [[Identity]], even if [[tentative|Tentative Beliefs]], the next step in a philosopher's journey is to immediately think about the [[Goal]]. How do you go about defining what a good life is supposed to be?
 
 Let's start with our working hypotheses:
 
@@ -10983,6 +10992,8 @@ Let's start with our working hypotheses:
 Given these three hypotheses, which appear apriori valid, it seems that I must think about things sufficiently, so that I make those choices, which lead to those consequences which are desirable or preferable.
 
 An unexamined life is (probably) not worth living.
+
+This is just the beginning though. We will have to not just define the [[Goal]] but also tackle challenges such as [[Solutions Are Problems]]
 
 </pre>
 </div>
@@ -11004,12 +11015,28 @@ These 3 qualities are to be preferred, if we intend to move towards being less a
 
 I do my own thinking. And I know for a fact that I prefer some events over others. The future absolute matters, and thus, life absolutely is meaningful.</pre>
 </div>
-<div created="20200528195732082" modified="20200528195954265" title="goal">
+<div created="20200528195732082" modified="20200530180203900" title="Goal">
 <pre>One thing that you quickly learn from playing Chess is that keeping an eye on the goal (checkmate) is immensely productive, compared to starting your search from what options are available, and then evaluating them to see which one is best.
 
 However, football teaches you that having an eye on the ball is much more important than having an eye on the goal.
 
 What's going on here?</pre>
+</div>
+<div created="20200530180810200" modified="20200530181442300" title="Identity">
+<pre>This is not referring to identity in the political sense. If thinking is going on, who do I define as the entity that's doing the thinking?
+
+- My mind
+- My in-group (family, tribe, nation etc)
+- My species (humankind)
+- All intelligence (including AI and aliens)
+- All biological life as a giant system, of which I'm just a tiny part
+- All matter, following the laws of nature.
+
+This is important because the identity I choose, will end up determining the goals. If I am the one doing this thinking exercise, I will tend to discount the concerns of future generations, or animals or robots.
+
+This is a hard question, but I also don't want to be stuck because of analysis-paralysis. My working hypothesis is to choose my identity as my mind. It will lead to premises which could be considered &quot;selfish&quot;, but this feels like the safest way to proceed for now.
+
+Like all beliefs, this too is a [[tentative belief|Tentative Beliefs]] and open to change. I just don't want to spend too much time and energy on this right away.</pre>
 </div>
 <div created="20200528191216173" modified="20200528191336726" title="Precise Beliefs">
 <pre>We care about precision because vague beliefs can pass any reasonable test of validity. A vague theory cannot be proven wrong. But that doesn't make it right.
@@ -11020,6 +11047,15 @@ Making precise claim makes it amenable to falsification - be it logical or empir
 <pre>The idea here to avoid the principle of explosion. A single contradiction in a propositional graph renders any arbitrary claim provable - and thus makes the entire structure useless. It is absolutely essential that we avoid holding contradictory beliefs at the same time.
 
 This does not preclude considering alternative possibilities. There is no contradiction in thinking: It might rain tomorrow or it might not. The problem only comes when you believe simultaneously that X is true, and so is Not-X.</pre>
+</div>
+<div created="20200530180216700" modified="20200530180619900" tags="" title="Solutions Are Problems">
+<pre>This is a troubling feature of life that I keep running into frequently. Say, you are looking to solve a problem, say, Climate Change.
+
+A chain of causes leads to the problem: Population -&gt; Demand -&gt; Consumption -&gt; Production -&gt; Pollution -&gt; Mismanagement -&gt; Global Warming. It's clear that potential solutions can be found at all these layers. However, solution require not just physical resources, but also political resources. And this is where the different solutions to the same problem take on a competitive orientation.
+
+Every dollar or even every minute of attention spent on solution A is something that won't be available to solution B. The proponents of B will start looking at A, not just as an alternative solution but as a problem itself!
+
+</pre>
 </div>
 <div created="20200528191120665" modified="20200528191204320" title="Tentative Beliefs">
 <pre>This comes from the underlying principle of humility. That I could be wrong. Without this principle, any hope of learning or to be educated could be futile.</pre>
